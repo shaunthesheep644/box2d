@@ -96,6 +96,7 @@ set(BOX2D_HEADER_FILES
 	../include/box2d/box2d.h)
 
 add_library(box2d STATIC ${BOX2D_SOURCE_FILES} ${BOX2D_HEADER_FILES})
+set_property(TARGET box2d PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_include_directories(box2d PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../include)
 target_include_directories(box2d PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 set_target_properties(box2d PROPERTIES
