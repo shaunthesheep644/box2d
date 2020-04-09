@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/testbed.dir/settings.cpp.o"
   "CMakeFiles/testbed.dir/test.cpp.o"
   "CMakeFiles/testbed.dir/tests/add_pair.cpp.o"
+  "CMakeFiles/testbed.dir/tests/azurio_test.cpp.o"
   "CMakeFiles/testbed.dir/tests/apply_force.cpp.o"
   "CMakeFiles/testbed.dir/tests/body_types.cpp.o"
   "CMakeFiles/testbed.dir/tests/box_stack.cpp.o"

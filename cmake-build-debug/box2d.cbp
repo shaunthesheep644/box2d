@@ -5,7 +5,7 @@
 		<Option title="box2d"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\unit-test\;CMake Files\extern\;CMake Files\extern\glad\;CMake Files\extern\glfw\;CMake Files\extern\imgui\;CMake Files\extern\sajson\;CMake Files\testbed\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\unit-test\;CMake Files\extern\;CMake Files\extern\glad\;CMake Files\extern\glfw\;CMake Files\extern\imgui\;CMake Files\extern\sajson\;CMake Files\testbed\;CMake Files\wrapper\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mtiganov/dev/box2d/cmake-build-debug"/>
@@ -355,6 +355,50 @@
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wrapper">
+				<Option output="/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/libwrapper.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mtiganov/dev/box2d/src/../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 wrapper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wrapper/fast">
+				<Option output="/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/libwrapper.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mtiganov/dev/box2d/src/../include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 wrapper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -796,6 +840,9 @@
 		<Unit filename="/Users/mtiganov/dev/box2d/testbed/tests/apply_force.cpp">
 			<Option target="testbed"/>
 		</Unit>
+		<Unit filename="/Users/mtiganov/dev/box2d/testbed/tests/azurio_test.cpp">
+			<Option target="testbed"/>
+		</Unit>
 		<Unit filename="/Users/mtiganov/dev/box2d/testbed/tests/body_types.cpp">
 			<Option target="testbed"/>
 		</Unit>
@@ -967,6 +1014,12 @@
 		<Unit filename="/Users/mtiganov/dev/box2d/unit-test/hello_world.cpp">
 			<Option target="unit_test"/>
 		</Unit>
+		<Unit filename="/Users/mtiganov/dev/box2d/wrapper/wrapper.cpp">
+			<Option target="wrapper"/>
+		</Unit>
+		<Unit filename="/Users/mtiganov/dev/box2d/wrapper/wrapper.h">
+			<Option target="wrapper"/>
+		</Unit>
 		<Unit filename="/Users/mtiganov/dev/box2d/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
@@ -990,6 +1043,9 @@
 		</Unit>
 		<Unit filename="/Users/mtiganov/dev/box2d/testbed/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\testbed\"/>
+		</Unit>
+		<Unit filename="/Users/mtiganov/dev/box2d/wrapper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\wrapper\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

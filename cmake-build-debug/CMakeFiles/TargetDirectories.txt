@@ -21,3 +21,6 @@
 /Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/rebuild_cache.dir
 /Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/edit_cache.dir
 /Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir
+/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/CMakeFiles/rebuild_cache.dir
+/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/CMakeFiles/edit_cache.dir
+/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/CMakeFiles/wrapper.dir

@@ -148,9 +148,22 @@ testbed/CMakeFiles/testbed.dir/tests/add_pair.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testbed.dir/tests/add_pair.cpp.s"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov/dev/box2d/testbed/tests/add_pair.cpp -o CMakeFiles/testbed.dir/tests/add_pair.cpp.s
 
+testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
+testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.o: ../testbed/tests/azurio_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.o"
+	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/azurio_test.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/azurio_test.cpp
+
+testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testbed.dir/tests/azurio_test.cpp.i"
+	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov/dev/box2d/testbed/tests/azurio_test.cpp > CMakeFiles/testbed.dir/tests/azurio_test.cpp.i
+
+testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testbed.dir/tests/azurio_test.cpp.s"
+	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov/dev/box2d/testbed/tests/azurio_test.cpp -o CMakeFiles/testbed.dir/tests/azurio_test.cpp.s
+
 testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o: ../testbed/tests/apply_force.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/apply_force.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/apply_force.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.i: cmake_force
@@ -163,7 +176,7 @@ testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o: ../testbed/tests/body_types.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/body_types.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/body_types.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.i: cmake_force
@@ -176,7 +189,7 @@ testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o: ../testbed/tests/box_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/box_stack.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/box_stack.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.i: cmake_force
@@ -189,7 +202,7 @@ testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o: ../testbed/tests/breakable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/breakable.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/breakable.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.i: cmake_force
@@ -202,7 +215,7 @@ testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.o: ../testbed/tests/bridge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/bridge.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/bridge.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.i: cmake_force
@@ -215,7 +228,7 @@ testbed/CMakeFiles/testbed.dir/tests/bridge.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.o: ../testbed/tests/bullet_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/bullet_test.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/bullet_test.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.i: cmake_force
@@ -228,7 +241,7 @@ testbed/CMakeFiles/testbed.dir/tests/bullet_test.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.o: ../testbed/tests/cantilever.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/cantilever.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/cantilever.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.i: cmake_force
@@ -241,7 +254,7 @@ testbed/CMakeFiles/testbed.dir/tests/cantilever.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/car.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/car.cpp.o: ../testbed/tests/car.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/car.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/car.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/car.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/car.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/car.cpp.i: cmake_force
@@ -254,7 +267,7 @@ testbed/CMakeFiles/testbed.dir/tests/car.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/chain.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/chain.cpp.o: ../testbed/tests/chain.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/chain.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/chain.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/chain.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/chain.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/chain.cpp.i: cmake_force
@@ -267,7 +280,7 @@ testbed/CMakeFiles/testbed.dir/tests/chain.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.o: ../testbed/tests/chain_problem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/chain_problem.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/chain_problem.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.i: cmake_force
@@ -280,7 +293,7 @@ testbed/CMakeFiles/testbed.dir/tests/chain_problem.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.o: ../testbed/tests/character_collision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/character_collision.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/character_collision.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.i: cmake_force
@@ -293,7 +306,7 @@ testbed/CMakeFiles/testbed.dir/tests/character_collision.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.o: ../testbed/tests/circle_stack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/circle_stack.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/circle_stack.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.i: cmake_force
@@ -306,7 +319,7 @@ testbed/CMakeFiles/testbed.dir/tests/circle_stack.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o: ../testbed/tests/collision_filtering.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/collision_filtering.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/collision_filtering.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.i: cmake_force
@@ -319,7 +332,7 @@ testbed/CMakeFiles/testbed.dir/tests/collision_filtering.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.o: ../testbed/tests/collision_processing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/collision_processing.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/collision_processing.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.i: cmake_force
@@ -332,7 +345,7 @@ testbed/CMakeFiles/testbed.dir/tests/collision_processing.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o: ../testbed/tests/compound_shapes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/compound_shapes.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/compound_shapes.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.i: cmake_force
@@ -345,7 +358,7 @@ testbed/CMakeFiles/testbed.dir/tests/compound_shapes.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/confined.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/confined.cpp.o: ../testbed/tests/confined.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/confined.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/confined.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/confined.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/confined.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/confined.cpp.i: cmake_force
@@ -358,7 +371,7 @@ testbed/CMakeFiles/testbed.dir/tests/confined.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.o: ../testbed/tests/continuous_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/continuous_test.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/continuous_test.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.i: cmake_force
@@ -371,7 +384,7 @@ testbed/CMakeFiles/testbed.dir/tests/continuous_test.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.o: ../testbed/tests/convex_hull.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/convex_hull.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/convex_hull.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.i: cmake_force
@@ -384,7 +397,7 @@ testbed/CMakeFiles/testbed.dir/tests/convex_hull.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o: ../testbed/tests/conveyor_belt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/conveyor_belt.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.i: cmake_force
@@ -397,7 +410,7 @@ testbed/CMakeFiles/testbed.dir/tests/conveyor_belt.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.o: ../testbed/tests/distance_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/distance_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/distance_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.i: cmake_force
@@ -410,7 +423,7 @@ testbed/CMakeFiles/testbed.dir/tests/distance_joint.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.o: ../testbed/tests/distance_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/distance_test.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/distance_test.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.i: cmake_force
@@ -423,7 +436,7 @@ testbed/CMakeFiles/testbed.dir/tests/distance_test.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.o: ../testbed/tests/dominos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/dominos.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/dominos.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.i: cmake_force
@@ -436,7 +449,7 @@ testbed/CMakeFiles/testbed.dir/tests/dominos.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.o: ../testbed/tests/dump_loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/dump_loader.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/dump_loader.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.i: cmake_force
@@ -449,7 +462,7 @@ testbed/CMakeFiles/testbed.dir/tests/dump_loader.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o: ../testbed/tests/dynamic_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/dynamic_tree.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.i: cmake_force
@@ -462,7 +475,7 @@ testbed/CMakeFiles/testbed.dir/tests/dynamic_tree.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o: ../testbed/tests/edge_shapes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/edge_shapes.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/edge_shapes.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.i: cmake_force
@@ -475,7 +488,7 @@ testbed/CMakeFiles/testbed.dir/tests/edge_shapes.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.o: ../testbed/tests/edge_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/edge_test.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/edge_test.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.i: cmake_force
@@ -488,7 +501,7 @@ testbed/CMakeFiles/testbed.dir/tests/edge_test.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/friction.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/friction.cpp.o: ../testbed/tests/friction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/friction.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/friction.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/friction.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/friction.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/friction.cpp.i: cmake_force
@@ -501,7 +514,7 @@ testbed/CMakeFiles/testbed.dir/tests/friction.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.o: ../testbed/tests/gear_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/gear_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/gear_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.i: cmake_force
@@ -514,7 +527,7 @@ testbed/CMakeFiles/testbed.dir/tests/gear_joint.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.o: ../testbed/tests/heavy1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/heavy1.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/heavy1.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.i: cmake_force
@@ -527,7 +540,7 @@ testbed/CMakeFiles/testbed.dir/tests/heavy1.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.o: ../testbed/tests/heavy2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/heavy2.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/heavy2.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.i: cmake_force
@@ -540,7 +553,7 @@ testbed/CMakeFiles/testbed.dir/tests/heavy2.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o: ../testbed/tests/mobile_balanced.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/mobile_balanced.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.i: cmake_force
@@ -553,7 +566,7 @@ testbed/CMakeFiles/testbed.dir/tests/mobile_balanced.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o: ../testbed/tests/mobile_unbalanced.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/mobile_unbalanced.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.i: cmake_force
@@ -566,7 +579,7 @@ testbed/CMakeFiles/testbed.dir/tests/mobile_unbalanced.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.o: ../testbed/tests/motor_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/motor_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/motor_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.i: cmake_force
@@ -579,7 +592,7 @@ testbed/CMakeFiles/testbed.dir/tests/motor_joint.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.o: ../testbed/tests/pinball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/pinball.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/pinball.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.i: cmake_force
@@ -592,7 +605,7 @@ testbed/CMakeFiles/testbed.dir/tests/pinball.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.o: ../testbed/tests/platformer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/platformer.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/platformer.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.i: cmake_force
@@ -605,7 +618,7 @@ testbed/CMakeFiles/testbed.dir/tests/platformer.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o: ../testbed/tests/polygon_collision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/polygon_collision.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/polygon_collision.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.i: cmake_force
@@ -618,7 +631,7 @@ testbed/CMakeFiles/testbed.dir/tests/polygon_collision.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o: ../testbed/tests/polygon_shapes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/polygon_shapes.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.i: cmake_force
@@ -631,7 +644,7 @@ testbed/CMakeFiles/testbed.dir/tests/polygon_shapes.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o: ../testbed/tests/prismatic_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/prismatic_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.i: cmake_force
@@ -644,7 +657,7 @@ testbed/CMakeFiles/testbed.dir/tests/prismatic_joint.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o: ../testbed/tests/pulley_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/pulley_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/pulley_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.i: cmake_force
@@ -657,7 +670,7 @@ testbed/CMakeFiles/testbed.dir/tests/pulley_joint.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.o: ../testbed/tests/pyramid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/pyramid.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/pyramid.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.i: cmake_force
@@ -670,7 +683,7 @@ testbed/CMakeFiles/testbed.dir/tests/pyramid.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.o: ../testbed/tests/ray_cast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/ray_cast.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/ray_cast.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.i: cmake_force
@@ -683,7 +696,7 @@ testbed/CMakeFiles/testbed.dir/tests/ray_cast.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.o: ../testbed/tests/restitution.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/restitution.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/restitution.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.i: cmake_force
@@ -696,7 +709,7 @@ testbed/CMakeFiles/testbed.dir/tests/restitution.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o: ../testbed/tests/revolute_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/revolute_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/revolute_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.i: cmake_force
@@ -709,7 +722,7 @@ testbed/CMakeFiles/testbed.dir/tests/revolute_joint.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/rope.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/rope.cpp.o: ../testbed/tests/rope.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/rope.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/rope.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/rope.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/rope.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/rope.cpp.i: cmake_force
@@ -722,7 +735,7 @@ testbed/CMakeFiles/testbed.dir/tests/rope.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/rope_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/rope_joint.cpp.o: ../testbed/tests/rope_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/rope_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/rope_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/rope_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/rope_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/rope_joint.cpp.i: cmake_force
@@ -735,7 +748,7 @@ testbed/CMakeFiles/testbed.dir/tests/rope_joint.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.o: ../testbed/tests/sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/sensor.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/sensor.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.i: cmake_force
@@ -748,7 +761,7 @@ testbed/CMakeFiles/testbed.dir/tests/sensor.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.o: ../testbed/tests/shape_cast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/shape_cast.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/shape_cast.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.i: cmake_force
@@ -761,7 +774,7 @@ testbed/CMakeFiles/testbed.dir/tests/shape_cast.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.o: ../testbed/tests/shape_editing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/shape_editing.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/shape_editing.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.i: cmake_force
@@ -774,7 +787,7 @@ testbed/CMakeFiles/testbed.dir/tests/shape_editing.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/skier.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/skier.cpp.o: ../testbed/tests/skier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/skier.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/skier.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/skier.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/skier.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/skier.cpp.i: cmake_force
@@ -787,7 +800,7 @@ testbed/CMakeFiles/testbed.dir/tests/skier.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o: ../testbed/tests/slider_crank_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/slider_crank_1.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.i: cmake_force
@@ -800,7 +813,7 @@ testbed/CMakeFiles/testbed.dir/tests/slider_crank_1.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o: ../testbed/tests/slider_crank_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/slider_crank_2.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.i: cmake_force
@@ -813,7 +826,7 @@ testbed/CMakeFiles/testbed.dir/tests/slider_crank_2.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o: ../testbed/tests/theo_jansen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/theo_jansen.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/theo_jansen.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.i: cmake_force
@@ -826,7 +839,7 @@ testbed/CMakeFiles/testbed.dir/tests/theo_jansen.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.o: ../testbed/tests/tiles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/tiles.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/tiles.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.i: cmake_force
@@ -839,7 +852,7 @@ testbed/CMakeFiles/testbed.dir/tests/tiles.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o: ../testbed/tests/time_of_impact.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/time_of_impact.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/time_of_impact.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.i: cmake_force
@@ -852,7 +865,7 @@ testbed/CMakeFiles/testbed.dir/tests/time_of_impact.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.o: ../testbed/tests/tumbler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/tumbler.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/tumbler.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.i: cmake_force
@@ -865,7 +878,7 @@ testbed/CMakeFiles/testbed.dir/tests/tumbler.cpp.s: cmake_force
 
 testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o: testbed/CMakeFiles/testbed.dir/flags.make
 testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o: ../testbed/tests/wheel_joint.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testbed.dir/tests/wheel_joint.cpp.o -c /Users/mtiganov/dev/box2d/testbed/tests/wheel_joint.cpp
 
 testbed/CMakeFiles/testbed.dir/tests/wheel_joint.cpp.i: cmake_force
@@ -885,6 +898,7 @@ testbed_OBJECTS = \
 "CMakeFiles/testbed.dir/settings.cpp.o" \
 "CMakeFiles/testbed.dir/test.cpp.o" \
 "CMakeFiles/testbed.dir/tests/add_pair.cpp.o" \
+"CMakeFiles/testbed.dir/tests/azurio_test.cpp.o" \
 "CMakeFiles/testbed.dir/tests/apply_force.cpp.o" \
 "CMakeFiles/testbed.dir/tests/body_types.cpp.o" \
 "CMakeFiles/testbed.dir/tests/box_stack.cpp.o" \
@@ -952,6 +966,7 @@ testbed/testbed: testbed/CMakeFiles/testbed.dir/main.cpp.o
 testbed/testbed: testbed/CMakeFiles/testbed.dir/settings.cpp.o
 testbed/testbed: testbed/CMakeFiles/testbed.dir/test.cpp.o
 testbed/testbed: testbed/CMakeFiles/testbed.dir/tests/add_pair.cpp.o
+testbed/testbed: testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.o
 testbed/testbed: testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o
 testbed/testbed: testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o
 testbed/testbed: testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o
@@ -1015,7 +1030,7 @@ testbed/testbed: extern/imgui/libimgui.a
 testbed/testbed: extern/sajson/libsajson.a
 testbed/testbed: extern/glad/libglad.a
 testbed/testbed: testbed/CMakeFiles/testbed.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Linking CXX executable testbed"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Linking CXX executable testbed"
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testbed.dir/link.txt --verbose=$(VERBOSE)
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug/testbed && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E copy_directory /Users/mtiganov/dev/box2d/testbed/data/ /Users/mtiganov/dev/box2d/cmake-build-debug/testbed/data/
 

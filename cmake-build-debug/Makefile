@@ -201,6 +201,19 @@ testbed/fast:
 	$(MAKE) -f testbed/CMakeFiles/testbed.dir/build.make testbed/CMakeFiles/testbed.dir/build
 .PHONY : testbed/fast
 
+#=============================================================================
+# Target rules for targets named wrapper
+
+# Build rule for target.
+wrapper: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 wrapper
+.PHONY : wrapper
+
+# fast build rule for target.
+wrapper/fast:
+	$(MAKE) -f wrapper/CMakeFiles/wrapper.dir/build.make wrapper/CMakeFiles/wrapper.dir/build
+.PHONY : wrapper/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,6 +229,7 @@ help:
 	@echo "... imgui"
 	@echo "... sajson"
 	@echo "... testbed"
+	@echo "... wrapper"
 .PHONY : help
 
 

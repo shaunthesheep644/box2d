@@ -11,6 +11,7 @@ set (TESTBED_SOURCE_FILES
 	test.cpp
 	test.h
 	tests/add_pair.cpp
+	tests/azurio_test.cpp
 	tests/apply_force.cpp
 	tests/body_types.cpp
 	tests/box_stack.cpp
@@ -67,7 +68,7 @@ set (TESTBED_SOURCE_FILES
 	tests/time_of_impact.cpp
 	tests/tumbler.cpp
 	tests/wheel_joint.cpp
-)
+	tests/azurio_test.cpp)
 
 add_executable(testbed ${TESTBED_SOURCE_FILES})
 target_include_directories(testbed PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

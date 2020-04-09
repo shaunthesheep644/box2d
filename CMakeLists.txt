@@ -39,3 +39,6 @@ if (BOX2D_BUILD_TESTBED)
 		set_property(TARGET testbed PROPERTY VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_SOURCE_DIR}/testbed")
 	endif()
 endif()
+
+add_subdirectory(wrapper)
+

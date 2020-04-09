@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mtiganov/dev/box2d/testbed/test.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir/test.cpp.o"
   "/Users/mtiganov/dev/box2d/testbed/tests/add_pair.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir/tests/add_pair.cpp.o"
   "/Users/mtiganov/dev/box2d/testbed/tests/apply_force.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.o"
+  "/Users/mtiganov/dev/box2d/testbed/tests/azurio_test.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.o"
   "/Users/mtiganov/dev/box2d/testbed/tests/body_types.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir/tests/body_types.cpp.o"
   "/Users/mtiganov/dev/box2d/testbed/tests/box_stack.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir/tests/box_stack.cpp.o"
   "/Users/mtiganov/dev/box2d/testbed/tests/breakable.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/CMakeFiles/testbed.dir/tests/breakable.cpp.o"

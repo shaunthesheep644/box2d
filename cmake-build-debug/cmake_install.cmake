@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui/cmake_install.cmake")
   include("/Users/mtiganov/dev/box2d/cmake-build-debug/extern/sajson/cmake_install.cmake")
   include("/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/cmake_install.cmake")
+  include("/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/cmake_install.cmake")
 
 endif()
 

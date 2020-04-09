@@ -341,6 +341,33 @@ tests/apply_force.cpp.s:
 	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f testbed/CMakeFiles/testbed.dir/build.make testbed/CMakeFiles/testbed.dir/tests/apply_force.cpp.s
 .PHONY : tests/apply_force.cpp.s
 
+tests/azurio_test.o: tests/azurio_test.cpp.o
+
+.PHONY : tests/azurio_test.o
+
+# target to build an object file
+tests/azurio_test.cpp.o:
+	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f testbed/CMakeFiles/testbed.dir/build.make testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.o
+.PHONY : tests/azurio_test.cpp.o
+
+tests/azurio_test.i: tests/azurio_test.cpp.i
+
+.PHONY : tests/azurio_test.i
+
+# target to preprocess a source file
+tests/azurio_test.cpp.i:
+	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f testbed/CMakeFiles/testbed.dir/build.make testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.i
+.PHONY : tests/azurio_test.cpp.i
+
+tests/azurio_test.s: tests/azurio_test.cpp.s
+
+.PHONY : tests/azurio_test.s
+
+# target to generate assembly for a file
+tests/azurio_test.cpp.s:
+	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f testbed/CMakeFiles/testbed.dir/build.make testbed/CMakeFiles/testbed.dir/tests/azurio_test.cpp.s
+.PHONY : tests/azurio_test.cpp.s
+
 tests/body_types.o: tests/body_types.cpp.o
 
 .PHONY : tests/body_types.o
@@ -1859,6 +1886,9 @@ help:
 	@echo "... tests/apply_force.o"
 	@echo "... tests/apply_force.i"
 	@echo "... tests/apply_force.s"
+	@echo "... tests/azurio_test.o"
+	@echo "... tests/azurio_test.i"
+	@echo "... tests/azurio_test.s"
 	@echo "... tests/body_types.o"
 	@echo "... tests/body_types.i"
 	@echo "... tests/body_types.s"
