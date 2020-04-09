@@ -18,7 +18,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b653a350-649c-47a0-8035-bbb8eb0d4749" name="Default Changelist" comment="" />
+    <list default="true" id="b653a350-649c-47a0-8035-bbb8eb0d4749" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wrapper/wrapper.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/wrapper.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wrapper/wrapper.h" beforeDir="false" afterPath="$PROJECT_DIR$/wrapper/wrapper.h" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,20 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wrapper/wrapper.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="390">
+              <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wrapper/wrapper.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+            <state relative-caret-position="356">
+              <caret line="151" column="29" lean-forward="true" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -148,6 +151,7 @@
       <find>wrapper</find>
       <find>aabb</find>
       <find>CMAKE_CXX_COMPILER</find>
+      <find>__cdecl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -165,9 +169,9 @@
         <option value="$PROJECT_DIR$/testbed/wrapper.cpp" />
         <option value="$PROJECT_DIR$/testbed/main.cpp" />
         <option value="$PROJECT_DIR$/testbed/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/testbed/tests/azurio_test.cpp" />
         <option value="$PROJECT_DIR$/wrapper/wrapper.h" />
         <option value="$PROJECT_DIR$/wrapper/wrapper.cpp" />
-        <option value="$PROJECT_DIR$/testbed/tests/azurio_test.cpp" />
       </list>
     </option>
   </component>
@@ -313,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586359045195</updated>
-      <workItem from="1586359048252" duration="23592000" />
+      <workItem from="1586359048252" duration="23937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23592000" />
+    <option name="totallyTimeSpent" value="23937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1121" extended-state="6" />
@@ -328,7 +332,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32944608" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32944608" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="CMake" weight="0.32944608" />
@@ -343,7 +347,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.24973376" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="4" visible="true" weight="0.24973376" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -562,17 +566,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wrapper/wrapper.cpp">
+    <entry file="file://$PROJECT_DIR$/wrapper/wrapper.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="69" column="36" selection-start-line="69" selection-start-column="36" selection-end-line="69" selection-end-column="36" />
+        <state relative-caret-position="390">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wrapper/wrapper.h">
+    <entry file="file://$PROJECT_DIR$/wrapper/wrapper.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="356">
+          <caret line="151" column="29" lean-forward="true" selection-start-line="151" selection-start-column="29" selection-end-line="151" selection-end-column="29" />
         </state>
       </provider>
     </entry>
