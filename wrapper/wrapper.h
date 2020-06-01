@@ -17,6 +17,7 @@ struct GetVec2Result {
 
 extern "C" b2World* b2CreateWorld();
 extern "C" int32_t b2StepWorld(b2World* world, float timeStep, int32_t velocityIterationsCount, int32_t positionIterationsCount);
+extern "C" int32_t b2ApplyImpulse(b2World* world, b2Body* body, float impulseX, float impulseY);
 extern "C" int32_t b2UpdateBodyRadius(b2World* world, b2Body* body, float newRadius, int16_t newCollisionGroupId);
 extern "C" b2Body* b2AddCircleBody(b2World* world, int16_t newCollisionGroupId, float positionX, float positionY, float radius);
 extern "C" b2Body* b2AddRectBody(b2World* world, int16_t newCollisionGroupId, float positionX, float positionY, float width, float height);

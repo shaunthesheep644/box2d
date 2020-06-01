@@ -30,7 +30,7 @@ b2FixtureDef* b2GetCircle(float newRadius, int16_t newCollisionGroupId){
 
     b2FixtureDef* fixtureDef = new b2FixtureDef();
     fixtureDef->shape = circleShape;
-    fixtureDef->density = 1;
+    fixtureDef->density = 7;
     fixtureDef->friction = 0;
     fixtureDef->filter.groupIndex = newCollisionGroupId;
     fixtureDef->filter.categoryBits = 0x0002;
@@ -39,15 +39,35 @@ b2FixtureDef* b2GetCircle(float newRadius, int16_t newCollisionGroupId){
     return fixtureDef;
 }
 
+extern "C" int32_t b2ApplyImpulse(b2World* world, b2Body* body, float impulseX, float impulseY)
+{
+    try {
+        if (body != nullptr) {
+            const b2Vec2 impulse(impulseX, impulseY);
+            body->ApplyLinearImpulseToCenter(impulse, true);
+            return 0;
+        }
+        return -1;
+    }
+    catch(...) {
+        return -1;
+    }
+}
+
 extern "C" int32_t b2UpdateBodyRadius(b2World* world, b2Body* body, float newRadius, int16_t newCollisionGroupId)
 {
     try {
         if (body != nullptr) {
 
             b2Fixture* fixtureA = body->GetFixtureList();
-            body->DestroyFixture(fixtureA);
+            auto circle = (b2CircleShape*)fixtureA->GetShape();
+            circle->m_radius = newRadius;
+            b2Filter filter = fixtureA->GetFilterData();
+            filter.groupIndex = newCollisionGroupId;
+            fixtureA->SetFilterData(filter);
+/*            body->DestroyFixture(fixtureA);
             auto circle = b2GetCircle(newRadius, newCollisionGroupId);
-            body->CreateFixture(circle);
+            body->CreateFixture(circle);*/
             return 0;
         }
         return -1;
