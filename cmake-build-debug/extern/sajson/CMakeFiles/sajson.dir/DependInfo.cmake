@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mtiganov/dev/box2d/extern/sajson/sajson.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/extern/sajson/CMakeFiles/sajson.dir/sajson.cpp.o"
+  "/Users/mtiganov2/dev/box2d/extern/sajson/sajson.cpp" "/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/sajson/CMakeFiles/sajson.dir/sajson.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

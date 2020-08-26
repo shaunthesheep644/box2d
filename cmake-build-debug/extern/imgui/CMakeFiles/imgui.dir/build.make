@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mtiganov/dev/box2d
+CMAKE_SOURCE_DIR = /Users/mtiganov2/dev/box2d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mtiganov/dev/box2d/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mtiganov2/dev/box2d/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include extern/imgui/CMakeFiles/imgui.dir/depend.make
@@ -59,55 +59,55 @@ include extern/imgui/CMakeFiles/imgui.dir/flags.make
 
 extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: extern/imgui/CMakeFiles/imgui.dir/flags.make
 extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o: ../extern/imgui/imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui.cpp.o -c /Users/mtiganov/dev/box2d/extern/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui.cpp.o -c /Users/mtiganov2/dev/box2d/extern/imgui/imgui.cpp
 
 extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui.cpp.i"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov/dev/box2d/extern/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov2/dev/box2d/extern/imgui/imgui.cpp > CMakeFiles/imgui.dir/imgui.cpp.i
 
 extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui.cpp.s"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov/dev/box2d/extern/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov2/dev/box2d/extern/imgui/imgui.cpp -o CMakeFiles/imgui.dir/imgui.cpp.s
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: extern/imgui/CMakeFiles/imgui.dir/flags.make
 extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o: ../extern/imgui/imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /Users/mtiganov/dev/box2d/extern/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_demo.cpp.o -c /Users/mtiganov2/dev/box2d/extern/imgui/imgui_demo.cpp
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_demo.cpp.i"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov/dev/box2d/extern/imgui/imgui_demo.cpp > CMakeFiles/imgui.dir/imgui_demo.cpp.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov2/dev/box2d/extern/imgui/imgui_demo.cpp > CMakeFiles/imgui.dir/imgui_demo.cpp.i
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_demo.cpp.s"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov/dev/box2d/extern/imgui/imgui_demo.cpp -o CMakeFiles/imgui.dir/imgui_demo.cpp.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov2/dev/box2d/extern/imgui/imgui_demo.cpp -o CMakeFiles/imgui.dir/imgui_demo.cpp.s
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: extern/imgui/CMakeFiles/imgui.dir/flags.make
 extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o: ../extern/imgui/imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /Users/mtiganov/dev/box2d/extern/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_draw.cpp.o -c /Users/mtiganov2/dev/box2d/extern/imgui/imgui_draw.cpp
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_draw.cpp.i"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov/dev/box2d/extern/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov2/dev/box2d/extern/imgui/imgui_draw.cpp > CMakeFiles/imgui.dir/imgui_draw.cpp.i
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_draw.cpp.s"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov/dev/box2d/extern/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov2/dev/box2d/extern/imgui/imgui_draw.cpp -o CMakeFiles/imgui.dir/imgui_draw.cpp.s
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: extern/imgui/CMakeFiles/imgui.dir/flags.make
 extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o: ../extern/imgui/imgui_widgets.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /Users/mtiganov/dev/box2d/extern/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imgui.dir/imgui_widgets.cpp.o -c /Users/mtiganov2/dev/box2d/extern/imgui/imgui_widgets.cpp
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imgui.dir/imgui_widgets.cpp.i"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov/dev/box2d/extern/imgui/imgui_widgets.cpp > CMakeFiles/imgui.dir/imgui_widgets.cpp.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mtiganov2/dev/box2d/extern/imgui/imgui_widgets.cpp > CMakeFiles/imgui.dir/imgui_widgets.cpp.i
 
 extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imgui.dir/imgui_widgets.cpp.s"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov/dev/box2d/extern/imgui/imgui_widgets.cpp -o CMakeFiles/imgui.dir/imgui_widgets.cpp.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mtiganov2/dev/box2d/extern/imgui/imgui_widgets.cpp -o CMakeFiles/imgui.dir/imgui_widgets.cpp.s
 
 # Object files for target imgui
 imgui_OBJECTS = \
@@ -125,9 +125,9 @@ extern/imgui/libimgui.a: extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o
 extern/imgui/libimgui.a: extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o
 extern/imgui/libimgui.a: extern/imgui/CMakeFiles/imgui.dir/build.make
 extern/imgui/libimgui.a: extern/imgui/CMakeFiles/imgui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libimgui.a"
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean_target.cmake
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libimgui.a"
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean_target.cmake
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imgui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 extern/imgui/CMakeFiles/imgui.dir/build: extern/imgui/libimgui.a
@@ -135,10 +135,10 @@ extern/imgui/CMakeFiles/imgui.dir/build: extern/imgui/libimgui.a
 .PHONY : extern/imgui/CMakeFiles/imgui.dir/build
 
 extern/imgui/CMakeFiles/imgui.dir/clean:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean.cmake
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui && $(CMAKE_COMMAND) -P CMakeFiles/imgui.dir/cmake_clean.cmake
 .PHONY : extern/imgui/CMakeFiles/imgui.dir/clean
 
 extern/imgui/CMakeFiles/imgui.dir/depend:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mtiganov/dev/box2d /Users/mtiganov/dev/box2d/extern/imgui /Users/mtiganov/dev/box2d/cmake-build-debug /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui /Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mtiganov2/dev/box2d /Users/mtiganov2/dev/box2d/extern/imgui /Users/mtiganov2/dev/box2d/cmake-build-debug /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : extern/imgui/CMakeFiles/imgui.dir/depend
 

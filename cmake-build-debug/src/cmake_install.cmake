@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mtiganov/dev/box2d/src
+# Install script for directory: /Users/mtiganov2/dev/box2d/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

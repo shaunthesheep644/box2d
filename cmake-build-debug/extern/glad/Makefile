@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mtiganov/dev/box2d
+CMAKE_SOURCE_DIR = /Users/mtiganov2/dev/box2d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mtiganov/dev/box2d/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mtiganov2/dev/box2d/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles /Users/mtiganov/dev/box2d/cmake-build-debug/extern/glad/CMakeFiles/progress.marks
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles 0
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/glad/CMakeFiles/progress.marks
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/clean
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/preinstall
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/preinstall
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/glad/CMakeFiles/glad.dir/rule:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/CMakeFiles/glad.dir/rule
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glad/CMakeFiles/glad.dir/rule
 .PHONY : extern/glad/CMakeFiles/glad.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ glad: extern/glad/CMakeFiles/glad.dir/rule
 
 # fast build rule for target.
 glad/fast:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/build
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/build
 .PHONY : glad/fast
 
 src/gl.o: src/gl.c.o
@@ -131,7 +131,7 @@ src/gl.o: src/gl.c.o
 
 # target to build an object file
 src/gl.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/gl.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/gl.c.o
 .PHONY : src/gl.c.o
 
 src/gl.i: src/gl.c.i
@@ -140,7 +140,7 @@ src/gl.i: src/gl.c.i
 
 # target to preprocess a source file
 src/gl.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/gl.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/gl.c.i
 .PHONY : src/gl.c.i
 
 src/gl.s: src/gl.c.s
@@ -149,7 +149,7 @@ src/gl.s: src/gl.c.s
 
 # target to generate assembly for a file
 src/gl.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/gl.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glad/CMakeFiles/glad.dir/build.make extern/glad/CMakeFiles/glad.dir/src/gl.c.s
 .PHONY : src/gl.c.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

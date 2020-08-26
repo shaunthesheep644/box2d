@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mtiganov/dev/box2d/extern/imgui/imgui.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
-  "/Users/mtiganov/dev/box2d/extern/imgui/imgui_demo.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
-  "/Users/mtiganov/dev/box2d/extern/imgui/imgui_draw.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
-  "/Users/mtiganov/dev/box2d/extern/imgui/imgui_widgets.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
+  "/Users/mtiganov2/dev/box2d/extern/imgui/imgui.cpp" "/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui.cpp.o"
+  "/Users/mtiganov2/dev/box2d/extern/imgui/imgui_demo.cpp" "/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui_demo.cpp.o"
+  "/Users/mtiganov2/dev/box2d/extern/imgui/imgui_draw.cpp" "/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui_draw.cpp.o"
+  "/Users/mtiganov2/dev/box2d/extern/imgui/imgui_widgets.cpp" "/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui/CMakeFiles/imgui.dir/imgui_widgets.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mtiganov/dev/box2d/extern/glad
+# Install script for directory: /Users/mtiganov2/dev/box2d/extern/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

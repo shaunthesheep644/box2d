@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mtiganov/dev/box2d
+# Install script for directory: /Users/mtiganov2/dev/box2d
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,14 +34,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/src/cmake_install.cmake")
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/unit-test/cmake_install.cmake")
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/extern/glad/cmake_install.cmake")
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/extern/glfw/cmake_install.cmake")
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/extern/imgui/cmake_install.cmake")
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/extern/sajson/cmake_install.cmake")
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/testbed/cmake_install.cmake")
-  include("/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/src/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/unit-test/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/glad/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/glfw/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/imgui/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/extern/sajson/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/testbed/cmake_install.cmake")
+  include("/Users/mtiganov2/dev/box2d/cmake-build-debug/wrapper/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mtiganov/dev/box2d/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/mtiganov2/dev/box2d/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

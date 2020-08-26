@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mtiganov/dev/box2d
+CMAKE_SOURCE_DIR = /Users/mtiganov2/dev/box2d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mtiganov/dev/box2d/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mtiganov2/dev/box2d/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles /Users/mtiganov/dev/box2d/cmake-build-debug/extern/glfw/CMakeFiles/progress.marks
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov/dev/box2d/cmake-build-debug/CMakeFiles 0
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles /Users/mtiganov2/dev/box2d/cmake-build-debug/extern/glfw/CMakeFiles/progress.marks
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mtiganov2/dev/box2d/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/clean
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/preinstall
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/preinstall
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 extern/glfw/CMakeFiles/glfw.dir/rule:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/CMakeFiles/glfw.dir/rule
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 extern/glfw/CMakeFiles/glfw.dir/rule
 .PHONY : extern/glfw/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ glfw: extern/glfw/CMakeFiles/glfw.dir/rule
 
 # fast build rule for target.
 glfw/fast:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/build
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/build
 .PHONY : glfw/fast
 
 src/cocoa_init.o: src/cocoa_init.m.o
@@ -131,7 +131,7 @@ src/cocoa_init.o: src/cocoa_init.m.o
 
 # target to build an object file
 src/cocoa_init.m.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_init.m.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_init.m.o
 .PHONY : src/cocoa_init.m.o
 
 src/cocoa_init.i: src/cocoa_init.m.i
@@ -140,7 +140,7 @@ src/cocoa_init.i: src/cocoa_init.m.i
 
 # target to preprocess a source file
 src/cocoa_init.m.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_init.m.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_init.m.i
 .PHONY : src/cocoa_init.m.i
 
 src/cocoa_init.s: src/cocoa_init.m.s
@@ -149,7 +149,7 @@ src/cocoa_init.s: src/cocoa_init.m.s
 
 # target to generate assembly for a file
 src/cocoa_init.m.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_init.m.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_init.m.s
 .PHONY : src/cocoa_init.m.s
 
 src/cocoa_joystick.o: src/cocoa_joystick.m.o
@@ -158,7 +158,7 @@ src/cocoa_joystick.o: src/cocoa_joystick.m.o
 
 # target to build an object file
 src/cocoa_joystick.m.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_joystick.m.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_joystick.m.o
 .PHONY : src/cocoa_joystick.m.o
 
 src/cocoa_joystick.i: src/cocoa_joystick.m.i
@@ -167,7 +167,7 @@ src/cocoa_joystick.i: src/cocoa_joystick.m.i
 
 # target to preprocess a source file
 src/cocoa_joystick.m.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_joystick.m.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_joystick.m.i
 .PHONY : src/cocoa_joystick.m.i
 
 src/cocoa_joystick.s: src/cocoa_joystick.m.s
@@ -176,7 +176,7 @@ src/cocoa_joystick.s: src/cocoa_joystick.m.s
 
 # target to generate assembly for a file
 src/cocoa_joystick.m.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_joystick.m.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_joystick.m.s
 .PHONY : src/cocoa_joystick.m.s
 
 src/cocoa_monitor.o: src/cocoa_monitor.m.o
@@ -185,7 +185,7 @@ src/cocoa_monitor.o: src/cocoa_monitor.m.o
 
 # target to build an object file
 src/cocoa_monitor.m.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_monitor.m.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_monitor.m.o
 .PHONY : src/cocoa_monitor.m.o
 
 src/cocoa_monitor.i: src/cocoa_monitor.m.i
@@ -194,7 +194,7 @@ src/cocoa_monitor.i: src/cocoa_monitor.m.i
 
 # target to preprocess a source file
 src/cocoa_monitor.m.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_monitor.m.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_monitor.m.i
 .PHONY : src/cocoa_monitor.m.i
 
 src/cocoa_monitor.s: src/cocoa_monitor.m.s
@@ -203,7 +203,7 @@ src/cocoa_monitor.s: src/cocoa_monitor.m.s
 
 # target to generate assembly for a file
 src/cocoa_monitor.m.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_monitor.m.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_monitor.m.s
 .PHONY : src/cocoa_monitor.m.s
 
 src/cocoa_time.o: src/cocoa_time.c.o
@@ -212,7 +212,7 @@ src/cocoa_time.o: src/cocoa_time.c.o
 
 # target to build an object file
 src/cocoa_time.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_time.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_time.c.o
 .PHONY : src/cocoa_time.c.o
 
 src/cocoa_time.i: src/cocoa_time.c.i
@@ -221,7 +221,7 @@ src/cocoa_time.i: src/cocoa_time.c.i
 
 # target to preprocess a source file
 src/cocoa_time.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_time.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_time.c.i
 .PHONY : src/cocoa_time.c.i
 
 src/cocoa_time.s: src/cocoa_time.c.s
@@ -230,7 +230,7 @@ src/cocoa_time.s: src/cocoa_time.c.s
 
 # target to generate assembly for a file
 src/cocoa_time.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_time.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_time.c.s
 .PHONY : src/cocoa_time.c.s
 
 src/cocoa_window.o: src/cocoa_window.m.o
@@ -239,7 +239,7 @@ src/cocoa_window.o: src/cocoa_window.m.o
 
 # target to build an object file
 src/cocoa_window.m.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_window.m.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_window.m.o
 .PHONY : src/cocoa_window.m.o
 
 src/cocoa_window.i: src/cocoa_window.m.i
@@ -248,7 +248,7 @@ src/cocoa_window.i: src/cocoa_window.m.i
 
 # target to preprocess a source file
 src/cocoa_window.m.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_window.m.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_window.m.i
 .PHONY : src/cocoa_window.m.i
 
 src/cocoa_window.s: src/cocoa_window.m.s
@@ -257,7 +257,7 @@ src/cocoa_window.s: src/cocoa_window.m.s
 
 # target to generate assembly for a file
 src/cocoa_window.m.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_window.m.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/cocoa_window.m.s
 .PHONY : src/cocoa_window.m.s
 
 src/context.o: src/context.c.o
@@ -266,7 +266,7 @@ src/context.o: src/context.c.o
 
 # target to build an object file
 src/context.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/context.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/context.c.o
 .PHONY : src/context.c.o
 
 src/context.i: src/context.c.i
@@ -275,7 +275,7 @@ src/context.i: src/context.c.i
 
 # target to preprocess a source file
 src/context.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/context.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/context.c.i
 .PHONY : src/context.c.i
 
 src/context.s: src/context.c.s
@@ -284,7 +284,7 @@ src/context.s: src/context.c.s
 
 # target to generate assembly for a file
 src/context.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/context.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/context.c.s
 .PHONY : src/context.c.s
 
 src/egl_context.o: src/egl_context.c.o
@@ -293,7 +293,7 @@ src/egl_context.o: src/egl_context.c.o
 
 # target to build an object file
 src/egl_context.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.o
 .PHONY : src/egl_context.c.o
 
 src/egl_context.i: src/egl_context.c.i
@@ -302,7 +302,7 @@ src/egl_context.i: src/egl_context.c.i
 
 # target to preprocess a source file
 src/egl_context.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.i
 .PHONY : src/egl_context.c.i
 
 src/egl_context.s: src/egl_context.c.s
@@ -311,7 +311,7 @@ src/egl_context.s: src/egl_context.c.s
 
 # target to generate assembly for a file
 src/egl_context.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/egl_context.c.s
 .PHONY : src/egl_context.c.s
 
 src/init.o: src/init.c.o
@@ -320,7 +320,7 @@ src/init.o: src/init.c.o
 
 # target to build an object file
 src/init.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/init.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/init.c.o
 .PHONY : src/init.c.o
 
 src/init.i: src/init.c.i
@@ -329,7 +329,7 @@ src/init.i: src/init.c.i
 
 # target to preprocess a source file
 src/init.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/init.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/init.c.i
 .PHONY : src/init.c.i
 
 src/init.s: src/init.c.s
@@ -338,7 +338,7 @@ src/init.s: src/init.c.s
 
 # target to generate assembly for a file
 src/init.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/init.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/init.c.s
 .PHONY : src/init.c.s
 
 src/input.o: src/input.c.o
@@ -347,7 +347,7 @@ src/input.o: src/input.c.o
 
 # target to build an object file
 src/input.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/input.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/input.c.o
 .PHONY : src/input.c.o
 
 src/input.i: src/input.c.i
@@ -356,7 +356,7 @@ src/input.i: src/input.c.i
 
 # target to preprocess a source file
 src/input.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/input.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/input.c.i
 .PHONY : src/input.c.i
 
 src/input.s: src/input.c.s
@@ -365,7 +365,7 @@ src/input.s: src/input.c.s
 
 # target to generate assembly for a file
 src/input.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/input.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/input.c.s
 .PHONY : src/input.c.s
 
 src/monitor.o: src/monitor.c.o
@@ -374,7 +374,7 @@ src/monitor.o: src/monitor.c.o
 
 # target to build an object file
 src/monitor.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.o
 .PHONY : src/monitor.c.o
 
 src/monitor.i: src/monitor.c.i
@@ -383,7 +383,7 @@ src/monitor.i: src/monitor.c.i
 
 # target to preprocess a source file
 src/monitor.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.i
 .PHONY : src/monitor.c.i
 
 src/monitor.s: src/monitor.c.s
@@ -392,7 +392,7 @@ src/monitor.s: src/monitor.c.s
 
 # target to generate assembly for a file
 src/monitor.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/monitor.c.s
 .PHONY : src/monitor.c.s
 
 src/nsgl_context.o: src/nsgl_context.m.o
@@ -401,7 +401,7 @@ src/nsgl_context.o: src/nsgl_context.m.o
 
 # target to build an object file
 src/nsgl_context.m.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/nsgl_context.m.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/nsgl_context.m.o
 .PHONY : src/nsgl_context.m.o
 
 src/nsgl_context.i: src/nsgl_context.m.i
@@ -410,7 +410,7 @@ src/nsgl_context.i: src/nsgl_context.m.i
 
 # target to preprocess a source file
 src/nsgl_context.m.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/nsgl_context.m.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/nsgl_context.m.i
 .PHONY : src/nsgl_context.m.i
 
 src/nsgl_context.s: src/nsgl_context.m.s
@@ -419,7 +419,7 @@ src/nsgl_context.s: src/nsgl_context.m.s
 
 # target to generate assembly for a file
 src/nsgl_context.m.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/nsgl_context.m.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/nsgl_context.m.s
 .PHONY : src/nsgl_context.m.s
 
 src/osmesa_context.o: src/osmesa_context.c.o
@@ -428,7 +428,7 @@ src/osmesa_context.o: src/osmesa_context.c.o
 
 # target to build an object file
 src/osmesa_context.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.o
 .PHONY : src/osmesa_context.c.o
 
 src/osmesa_context.i: src/osmesa_context.c.i
@@ -437,7 +437,7 @@ src/osmesa_context.i: src/osmesa_context.c.i
 
 # target to preprocess a source file
 src/osmesa_context.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.i
 .PHONY : src/osmesa_context.c.i
 
 src/osmesa_context.s: src/osmesa_context.c.s
@@ -446,7 +446,7 @@ src/osmesa_context.s: src/osmesa_context.c.s
 
 # target to generate assembly for a file
 src/osmesa_context.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/osmesa_context.c.s
 .PHONY : src/osmesa_context.c.s
 
 src/posix_thread.o: src/posix_thread.c.o
@@ -455,7 +455,7 @@ src/posix_thread.o: src/posix_thread.c.o
 
 # target to build an object file
 src/posix_thread.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.o
 .PHONY : src/posix_thread.c.o
 
 src/posix_thread.i: src/posix_thread.c.i
@@ -464,7 +464,7 @@ src/posix_thread.i: src/posix_thread.c.i
 
 # target to preprocess a source file
 src/posix_thread.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.i
 .PHONY : src/posix_thread.c.i
 
 src/posix_thread.s: src/posix_thread.c.s
@@ -473,7 +473,7 @@ src/posix_thread.s: src/posix_thread.c.s
 
 # target to generate assembly for a file
 src/posix_thread.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/posix_thread.c.s
 .PHONY : src/posix_thread.c.s
 
 src/vulkan.o: src/vulkan.c.o
@@ -482,7 +482,7 @@ src/vulkan.o: src/vulkan.c.o
 
 # target to build an object file
 src/vulkan.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.o
 .PHONY : src/vulkan.c.o
 
 src/vulkan.i: src/vulkan.c.i
@@ -491,7 +491,7 @@ src/vulkan.i: src/vulkan.c.i
 
 # target to preprocess a source file
 src/vulkan.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.i
 .PHONY : src/vulkan.c.i
 
 src/vulkan.s: src/vulkan.c.s
@@ -500,7 +500,7 @@ src/vulkan.s: src/vulkan.c.s
 
 # target to generate assembly for a file
 src/vulkan.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/vulkan.c.s
 .PHONY : src/vulkan.c.s
 
 src/window.o: src/window.c.o
@@ -509,7 +509,7 @@ src/window.o: src/window.c.o
 
 # target to build an object file
 src/window.c.o:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/window.c.o
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/window.c.o
 .PHONY : src/window.c.o
 
 src/window.i: src/window.c.i
@@ -518,7 +518,7 @@ src/window.i: src/window.c.i
 
 # target to preprocess a source file
 src/window.c.i:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/window.c.i
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/window.c.i
 .PHONY : src/window.c.i
 
 src/window.s: src/window.c.s
@@ -527,7 +527,7 @@ src/window.s: src/window.c.s
 
 # target to generate assembly for a file
 src/window.c.s:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/window.c.s
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(MAKE) -f extern/glfw/CMakeFiles/glfw.dir/build.make extern/glfw/CMakeFiles/glfw.dir/src/window.c.s
 .PHONY : src/window.c.s
 
 # Help Target
@@ -595,6 +595,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/mtiganov/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/mtiganov2/dev/box2d/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mtiganov/dev/box2d/wrapper/wrapper.cpp" "/Users/mtiganov/dev/box2d/cmake-build-debug/wrapper/CMakeFiles/wrapper.dir/wrapper.cpp.o"
+  "/Users/mtiganov2/dev/box2d/wrapper/wrapper.cpp" "/Users/mtiganov2/dev/box2d/cmake-build-debug/wrapper/CMakeFiles/wrapper.dir/wrapper.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -20,7 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/mtiganov/dev/box2d/cmake-build-debug/src/CMakeFiles/box2d.dir/DependInfo.cmake"
+  "/Users/mtiganov2/dev/box2d/cmake-build-debug/src/CMakeFiles/box2d.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
