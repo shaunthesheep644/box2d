@@ -17,7 +17,7 @@ public:
         body = b2AddCircleBody(m_world, 1, 0, 0, 4);
         body2 = b2AddCircleBody(m_world, 1, 0, 10, 4);
         //
-        b2UpdateBodyRadius(m_world, body, 50, 1);
+        b2UpdateBodyRadius(m_world, body, 50);
         //
         //b2SetBodyVelocity(m_world, body, 4, 4);
 

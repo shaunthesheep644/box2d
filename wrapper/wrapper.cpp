@@ -30,7 +30,7 @@ b2FixtureDef* b2GetCircle(float newRadius, int16_t newCollisionGroupId){
 
     b2FixtureDef* fixtureDef = new b2FixtureDef();
     fixtureDef->shape = circleShape;
-    fixtureDef->density = 7;
+    fixtureDef->density = newRadius;
     fixtureDef->friction = 0;
     fixtureDef->filter.groupIndex = newCollisionGroupId;
     fixtureDef->filter.categoryBits = 0x0002;
@@ -54,7 +54,7 @@ extern "C" int32_t b2ApplyImpulse(b2World* world, b2Body* body, float impulseX, 
     }
 }
 
-extern "C" int32_t b2UpdateBodyRadius(b2World* world, b2Body* body, float newRadius, int16_t newCollisionGroupId)
+extern "C" int32_t b2UpdateBodyRadius(b2World* world, b2Body* body, float newRadius)
 {
     try {
         if (body != nullptr) {
@@ -62,12 +62,30 @@ extern "C" int32_t b2UpdateBodyRadius(b2World* world, b2Body* body, float newRad
             b2Fixture* fixtureA = body->GetFixtureList();
             auto circle = (b2CircleShape*)fixtureA->GetShape();
             circle->m_radius = newRadius;
-            b2Filter filter = fixtureA->GetFilterData();
+            /*b2Filter filter = fixtureA->GetFilterData();
             filter.groupIndex = newCollisionGroupId;
-            fixtureA->SetFilterData(filter);
+            fixtureA->SetFilterData(filter);*/
 /*            body->DestroyFixture(fixtureA);
             auto circle = b2GetCircle(newRadius, newCollisionGroupId);
             body->CreateFixture(circle);*/
+            return 0;
+        }
+        return -1;
+    }
+    catch(...) {
+        return -1;
+    }
+}
+
+extern "C" int32_t b2UpdateBodyCollisionGroup(b2World* world, b2Body* body, int16_t newCollisionGroupId)
+{
+    try {
+        if (body != nullptr) {
+
+            b2Fixture* fixtureA = body->GetFixtureList();
+            b2Filter filter = fixtureA->GetFilterData();
+            filter.groupIndex = newCollisionGroupId;
+            fixtureA->SetFilterData(filter);
             return 0;
         }
         return -1;
@@ -88,6 +106,8 @@ extern "C" b2Body* b2AddCircleBody(b2World* world, int16_t newCollisionGroupId, 
         body->SetBullet(true);
         auto circle = b2GetCircle(radius, newCollisionGroupId);
         body->CreateFixture(circle);
+        body->ResetMassData();
+
         return body;
     }
     catch(...) {
